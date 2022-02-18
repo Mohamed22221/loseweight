@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/loseweight/static/css/main.52a65dba.css",
+    "main.js": "/loseweight/static/js/main.b984e502.js",
+    "static/media/about3.jpg": "/loseweight/static/media/about3.c41b390dd38e9db9de88.jpg",
+    "static/media/service-1.jpg": "/loseweight/static/media/service-1.4784e2e46aaea741e51a.jpg",
+    "static/media/11.png": "/loseweight/static/media/11.f61d2a42489f4d3640f2.png",
+    "static/media/about2.jpg": "/loseweight/static/media/about2.3a50a0235c7ce4b954dc.jpg",
+    "static/media/service-4.jpg": "/loseweight/static/media/service-4.ddeb76f69b2c142e6f43.jpg",
+    "static/media/service-3.jpg": "/loseweight/static/media/service-3.3c016d0689a05a12dcfc.jpg",
+    "static/media/about1.jpg": "/loseweight/static/media/about1.453f6bb62a01697ef8df.jpg",
+    "static/media/blog4.jpg": "/loseweight/static/media/blog4.1950d47f3090dd233670.jpg",
+    "static/media/backgroud.jpg": "/loseweight/static/media/backgroud.45d02242a8245bcf70fe.jpg",
+    "static/media/download.png": "/loseweight/static/media/download.ab75b86d7b443e5a88a5.png",
+    "static/media/orange.jpg": "/loseweight/static/media/orange.adfd0d346d56d9e73f80.jpg",
+    "static/media/img-home.jpg": "/loseweight/static/media/img-home.a5de0ead8c09f5e312af.jpg",
+    "static/media/blog3.jpg": "/loseweight/static/media/blog3.060df881f532242042b8.jpg",
+    "static/media/blog1.jpg": "/loseweight/static/media/blog1.d0c2f5709acec73c2777.jpg",
+    "static/media/2.png": "/loseweight/static/media/2.6f5d7594e16206180f62.png",
+    "index.html": "/loseweight/index.html",
+    "main.52a65dba.css.map": "/loseweight/static/css/main.52a65dba.css.map",
+    "main.b984e502.js.map": "/loseweight/static/js/main.b984e502.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.52a65dba.css",
+    "static/js/main.b984e502.js"
+  ]
+}
