@@ -1,0 +1,19 @@
+
+.acordion  {
+    position: relative;
+    background-image: url(../img/backgroud.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+    height: 70vh;
+    width: 100%;
+    border: 10px  solid #fff;;
+    font-size: 22px;
+    
+
+    border-radius: 10px;
+    
+}
+.this-acordion{
+   
+    font-family: Arial, Helvetica, sans-serif;
+}

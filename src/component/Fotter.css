@@ -1,0 +1,24 @@
+.fotter{
+    background-color: rgb(193 0 0);
+    padding: 25px;
+    margin-top: 20px;
+    color: white;
+
+}
+.fotter a{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 20px 0;
+    font-size: 33px;
+    cursor: pointer;
+}
+@media (max-width:500px) {
+    .fotter{
+   
+        
+        margin-top: 150px;
+        
+    
+    }
+}

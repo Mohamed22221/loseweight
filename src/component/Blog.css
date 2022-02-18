@@ -1,0 +1,124 @@
+.main-blog{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.item-blog-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: end;
+    padding: 10px 0;
+    margin: 10px;
+    position: relative;
+}
+.item-blog-1{
+    border-right:1px solid rgb(117, 117, 117) ;
+
+}
+
+.item-blog-1 .img-blog img{
+    width: 230px;
+   
+    padding-right:20px ;
+}
+.item-blog-1 .text-blog{
+    width: 100%;
+    padding-right: 40px;
+}
+.item-blog-1 .text-blog h4{
+   color: #dc3545;
+}
+.item-blog-1 .text-blog h1{
+    color: rgb(117, 117, 117);
+    padding: 10px 0;
+    font-size: 28px;
+}
+.item-blog-1 .text-blog p{
+    display: block;
+   color: rgb(182, 182, 182);
+}
+.item-blog-2{
+display: flex;
+justify-content: space-between;
+align-items: center;
+text-align: center;
+flex-direction: column;
+
+}
+
+.item-blog-2 .img-blog img{
+    width: 100px;
+    border-radius:50% ;
+}
+.item-blog-2 .item-blog{
+    display: flex;
+
+}
+.item-blog-2 .item-blog:nth-child(1){
+    
+    border-bottom:1px solid rgb(117, 117, 117) ;
+    padding: 25px 0;
+}
+.item-blog-2 .item-blog .text-blog h1{
+    color: rgb(117, 117, 117);
+    padding: 10px 0;
+    font-size: 22px;
+}
+.all-plog{
+    position: relative;
+}
+.all-plog .anomation1{
+    width: 220px;
+   bottom: -80px;
+   position: absolute;
+   
+}
+@media (max-width:765px) {
+
+    .item-blog-1 .text-blog p{
+        display: none;
+     }
+     .item-blog-1 .img-blog img{
+        width: 130px;
+       
+        
+    }
+    
+}
+@media (max-width:565px) {
+    .item-blog-1 .text-blog p{
+        display: block;
+     }
+    .main-blog{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 50px 0;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        
+    }
+    .item-blog-2 .item-blog{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+       
+        
+        }
+        .item-blog-2 .item-blog:nth-child(1){
+    
+            border-bottom:0px solid rgb(117, 117, 117) ;
+          
+        }
+        .all-plog .anomation1{
+            width: 150px;
+           bottom: -50px;
+           position: absolute;
+           
+        }
+    
+}

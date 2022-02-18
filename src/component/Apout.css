@@ -1,0 +1,131 @@
+.main-apout{
+    position: relative;
+    margin-bottom: 50px;
+}
+.apoutall-item{
+    display: flex;
+    justify-content: space-between;
+    
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.item-apout{
+    margin: 20px 0;
+    padding-bottom: 40px;
+    width: 400px;
+    box-shadow: 0 4px  0px red;
+    border-radius: 8px;
+    
+}
+.item-apout:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 9px  0px red;
+    transition: 0.5s ease-out;
+}
+.item-apout .img-about{
+
+    margin: 0;
+    padding: 0;
+    position: relative;
+    
+}
+.item-apout .img-about::before{
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(126, 59, 59, 0.397);
+    position: absolute;
+    transform: scale(10px);
+}
+.item-apout .img-about img{
+    width: 400px;
+    height: 210px;
+    margin: 0;
+}
+
+.item-apout .text-about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.item-apout .text-about h2{
+    padding: 8px 0;
+       
+  }
+.item-apout .text-about p{
+  color:#898c94 ;
+  text-align: center;
+  padding: 0 10px;
+    
+    
+}
+.text-about .btn{
+    padding: 4px 8px;
+    font-size: 15px ;
+}
+@media (max-width:1440px) {
+    .item-apout{
+       
+        width: 300px;
+    }
+    .item-apout .img-about img{
+        width: 300px;
+      
+    }
+}
+@media (max-width:988px) {
+    .item-apout{
+
+        width: 220px;
+    }
+    .item-apout .img-about img{
+        width: 220px;
+        height: 100px;
+      
+    }
+    .item-apout .text-about p{
+        font-size: 12px;  
+      }
+      .item-apout .text-about h2{
+        font-size: 18px;
+           
+      }
+}
+@media (max-width:778px) {
+    .item-apout{
+
+        width: 190px;
+    }
+    .item-apout .img-about img{
+        width: 190px;
+        height: 100px;
+      
+    }
+    .item-apout .text-about p{
+        font-size: 11px;  
+      }
+      .item-apout .text-about h2{
+        font-size: 17px;
+           
+      }
+}
+@media (max-width:668px) {
+    .apoutall-item{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    .item-apout{
+
+        width: 100%;
+    }
+    .item-apout .img-about img{
+        width: 100%;
+        height: 200px;
+      
+    }
+}
