@@ -31,6 +31,10 @@ const Blog = () => {
                          <p>t's a familiar story: You pledge to honor a daily elliptical routine and count every last calorie. But soon, you're eating cupcakes at 
                         the office and grabbing happy hour mojitos, thinking, 
                         Oops, diet over</p>
+                      <button className='btn' ><a href='https://go.smoothiediet.com/?hop=rayanahmed'>
+                         WANT MORE?
+                        </a>
+                        <i className="fa-solid fa-arrow-right-long"></i></button>
                    </div>
                   
                </div>
