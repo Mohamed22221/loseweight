@@ -29,6 +29,10 @@
     width: 100%;
     padding-right: 40px;
 }
+.item-blog-1 .text-blog .btn{
+  align-items: center;
+  margin: 0 auto;
+}
 .item-blog-1 .text-blog h4{
    color: #dc3545;
 }
